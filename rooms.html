@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title> Dalhousie Resorts </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Besley:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/mylogo.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="exploredalhousie.html">Explore Dalhousie</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+    <h1>ROOMS</h1>
+</section>
+
+
+<!----Facilities----->
+<section class="facilities">
+    <h1> ROOM FACILITIES </h1>
+    <p> Our resort is carried on into its 190 Guest Rooms and Luxury Suites.
+        Each of the beautifully designed rooms are decorated in a vivid color palette.<br>
+        The Guest Rooms all come appointed with high-end amenities and furnishings.
+        In these Guest Rooms, no detail is overlooked — bronze rods, brass door handles and finials were forged by
+         the Hotel's creative team.</p>
+       
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/standard-room-.jpg">
+            <h3>Standard Rooms </h3>
+            <p>These budget rooms at our Resort in Dalhousie are crafted to achieve comfort and convenience.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/deluxe_room.jfif">
+            <h3>Deluxe Rooms</h3>
+            <p>The Deluxe Rooms at our Resort in Dalhousie offer unprecedented facilities with all the modern amenities.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/room_garden.jpg">
+            <h3>Deluxe Rooms with Garden View</h3>
+            <p>Wake up to the serene view of the lush green garden from the comfort of your bed at out resort in Dalhousie.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/suite_rooms.jpg">
+            <h3>Suite with Pool</h3>
+            <p> The spacious rooms accommodate a separate living room for optimum comfort with a beautiful pool in the room.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/suite_parkview.jpg">
+            <h3>Suite with park view</h3>
+            <p>Park View Luxury Suite features a luxurious king bed ,pullout sofa and an elegant Living Area 
+                 It is also available for business meetings and social events.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/penthouse.jpg">
+            <h3>Penthouse</h3>
+            <p>The  extraordinary Penthouse has a living room, dining room, library, working wood paneled kitchen, large custom bathroom 
+                with soaking tub and shower, and a powder room.
+            </p>
+        </div>
+    </div>
+    
+
+                   
+
+<!----Footer----->
+<section class="footer">
+    <h4>ROOMS</h4>
+    <p>Get In Touch</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> Designed by <i class="fa fa-heart-o"></i> Arshmeet Kaur </p>
+</section>
+
+
+
+
+
+<!-----Javascript for toggle menu----->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+
+
+</body>
+</html>

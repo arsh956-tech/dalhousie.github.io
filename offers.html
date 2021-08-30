@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title> Dalhousie Resorts </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Besley:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/mylogo.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="exploredalhousie.html">Explore Dalhousie</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+    <h1>Offers at Meet Alluring Resort</h1>
+</section>
+
+
+<!-------ExploreDalhousie------>
+<section class="dining">
+    <h1>Offers at Meet Alluring Resort</h1>
+
+    <div class="row">
+        <div class="dining-col">
+            <h2>40% off when you book within 2 days of your arrival</h2>
+            <p>Book your stay now in our hotels and get 40% off!</p>
+            <img src="images/standard-room-.jpg">
+        </div>
+        <div class="dining-col">
+            <h2>Weekend Getaway - Get 40% off</h2>
+            <p>Book for 3 nights and get 40% off and complimentary late check out.
+                This offer is applicable when the booking is happening between Friday to Monday.</p>
+            <img src="images/food.jfif">  
+        </div>
+    </div>
+    <div class="row">
+        <div class="dining-col">
+            <h2>Book for 5 Nights or more and get 50% Discount</h2>
+            <p>Book your stay with us at Mint Hotels and avail a flat discount of 50% on the Best Available Rates! </p>
+                 <img src="images/riverside_restaurant.jpg">
+        </div>
+        <div class="dining-col">
+            <h2>Early Booker - Get 40% off</h2>
+            <p>Book your stay 30 days in advance and get an instant 40% off!Hurry and book now!Hurry and book now!</p>
+                <img src="images/discount.jfif">
+        </div>
+
+    </div>
+
+</section>
+
+<div class="comment-box">
+    
+    <h3>Leave a comment.</h3>
+    <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+    </form>
+</div>
+
+
+
+
+<!----Footer----->
+<section class="footer">
+    <h4>OFFERS</h4>
+    <p>Get In Touch</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> Designed by <i class="fa fa-heart-o"></i> Arshmeet Kaur </p>
+</section>
+
+
+
+
+
+<!-----Javascript for toggle menu----->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+
+
+</body>
+</html>

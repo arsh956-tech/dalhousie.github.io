@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title> Dalhousie Resorts </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Besley:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/mylogo.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="exploredalhousie.html">Explore Dalhousie</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+    <h1>Explore Dalhousie</h1>
+</section>
+
+
+<!-------ExploreDalhousie------>
+<section class="dining">
+    <h1>Explore Dalhousie</h1>
+
+    <div class="row">
+        <div class="dining-col">
+            <h2>St Patrick Church</h2>
+            <p>With plunging green trees and pine valleys surrounding it, St. Patrick's Church is another amazing place in the bygone times. The old world charm of the place would infect the tourist on their trip to
+                 St. Patrick's Church which is located in the flourishing landscapes of Dalhousie. </p>
+            <img src="images/St_Patrick_Church.jfif">
+        </div>
+        <div class="dining-col">
+            <h2>Chamera lake</h2>
+            <p>Chamera lake is located in the Chamba district at a height of 763 M from the sea level. it is the captivating traveller’s destination. It is based approximately at a distance of 30 KM from Dalhousie. This lake was formed because of the Chamera Dam was built on the Ravi River. It is a great place for all adrenaline 
+                junkies as it proffers a plethora of water sports.</p>
+            <img src="images/Chamera_lake.jfif">  
+        </div>
+    </div>
+    <div class="row">
+        <div class="dining-col">
+            <h2>Khajjiar Lake</h2>
+            <p>For someone who is a nature lover, it is quite impossible to ignore the natural magnificence of Himachal Pradesh. Located in Khajjiar, in Chamba district of Himachal Pradesh, this lake is situated at a height of around 1,920 m above sea level between Dalhousie and Chamba Town. The lake is set in a huge grassy landscape,
+                 with evergreen cedar trees surrounding it from all sides..</p>
+                 <img src="images/Khajjiar Lake.jfif">
+        </div>
+        <div class="dining-col">
+            <h2>Dainkund Hill</h2>
+            <p>Dainkund is the highest peak in Dalhousie and gets maximum snowfall during the winter season. There is a motorable road that leads to this hill, but one can also choose to trek this distance as the views are really astonishing here. This whole stretch is full of natural beauty that gives a completely 
+                different experience.</p>
+                <img src="images/DainkundHill.jfif">
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!----Footer----->
+<section class="footer">
+    <h4>EXPLORE DALHOUSIE</h4>
+    <p>Get In Touch</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> Designed by <i class="fa fa-heart-o"></i> Arshmeet Kaur </p>
+</section>
+
+
+
+
+
+<!-----Javascript for toggle menu----->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+
+
+</body>
+</html>

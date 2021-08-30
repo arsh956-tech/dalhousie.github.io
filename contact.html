@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title> Dalhousie Resorts </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Besley:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/mylogo.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="exploredalhousie.html">Explore Dalhousie</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+</section>
+
+<!------Contact Us------>
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3422.2902888553795!2d75.80380051475174!3d30.93445608156731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a86aa1c7da7f5%3A0xcc8cb004157fd8cc!2s51%2C%20Street%20Number%208%2C%20Sant%20Vihar%20Colony%2C%20Golden%20Avenue%20Colony%2C%20Haibowal%20Kalan%2C%20Ludhiana%2C%20Punjab%20141001%2C%20India!5e0!3m2!1sen!2sus!4v1630248344116!5m2!1sen!2sus"
+     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i> 
+                <span>
+                    <h5>HouseNo-215,StreetNo-8,Sant Vihar Colony, Haibowal Kalan</h5>
+                    <p>Ludhiana,Punjab,India</p>
+                </span>  
+            </div>
+            <div>
+                <i class="fa fa-phone"></i> 
+                <span>
+                    <h5>9781758029</h5>
+                    <p>Monday to Saturday,10AM to 6PM</p>
+                </span>  
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i> 
+                <span>
+                    <h5>arshmeetk1303@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>  
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form_handler.php"method="post">
+                <input type="text" name="name" placeholder="Enter your name"required>
+                <input type="email" name="email" placeholder="Enter your email address "required>
+                <input type="text" name="subject" placeholder="Enter your subject"required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+            
+            
+
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+<!----Footer----->
+<section class="footer">
+    <h4>CONTACT US</h4>
+    <p>Get In Touch</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> Designed by <i class="fa fa-heart-o"></i> Arshmeet Kaur </p>
+</section>
+
+
+
+
+
+<!-----Javascript for toggle menu----->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+
+
+</body>
+</html>
